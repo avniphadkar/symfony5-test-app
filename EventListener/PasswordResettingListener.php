@@ -9,9 +9,7 @@ use Symfony\Component\HttpFoundation\RedirectResponse;
 use Symfony\Component\Routing\Generator\UrlGeneratorInterface;
 
 /**
- * Listener responsible to change the redirection at the end of the password resetting.
- *
- * @see http://symfony.com/doc/current/bundles/FOSUserBundle/controller_events.html
+ * Listener responsible for changing the redirection at the end of the password resetting.
  */
 class PasswordResettingListener implements EventSubscriberInterface
 {
